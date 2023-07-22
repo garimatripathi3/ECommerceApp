@@ -1,0 +1,149 @@
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #fddb92 0%, #d1fdff 100%);
+    animation: gradientChange 10s linear infinite alternate;
+  }
+  
+  @keyframes gradientChange {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .login-form {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+
+  .login-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+ 
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    color: #333;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .forgot-password-btn {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+  
+  .forgot-password-btn:hover {
+    color: #0056b3;
+  }
+  
+  /* Primary button styles */
+  .btn-primary {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #007bff, #00c0ff);
+    background-size: 200% 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-position 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-position: right center;
+  }
+  
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  
+  .social-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .social-login-container p {
+    margin-right: 10px;
+  }
+  
+  .google-login-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to right, #db4437, #de5b27);
+    background-size: 200% 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-position 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+  }
+  
+  .google-login-btn:hover {
+    background-position: right center;
+  }
+  
+  .google-login-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(219, 68, 55, 0.5);
+  }
+  
+  .google-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+ 
+  @media (max-width: 576px) {
+    .login-form {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  

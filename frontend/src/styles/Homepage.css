@@ -1,0 +1,133 @@
+/* Homepage */
+.banner-img {
+  margin-top: 60px;
+}
+
+.home-page h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.home-page .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Filters */
+.filters {
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filters h4 {
+  margin-top: 100px;
+  color: gray;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 2px;
+}
+
+.ant-radio-wrapper {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: black;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.filters button:hover {
+  background-color: darkgreen;
+}
+
+/* Load More Button */
+.loadmore {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.loadmore-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loadmore-btn:hover {
+  background-color: darkgreen;
+}
